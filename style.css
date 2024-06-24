@@ -32,6 +32,11 @@ body {
     border-radius: 3px;
 }
 
+.desktop-icon a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .notepad {
     width: 600px;
     height: 400px;
