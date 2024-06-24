@@ -13,7 +13,7 @@ body {
 .desktop-icon {
     position: absolute;
     text-align: center;
-    width: 90px;
+    width: 90px; 
 }
 
 .desktop-icon img {
@@ -32,15 +32,10 @@ body {
     border-radius: 3px;
 }
 
-.desktop-icon a {
-    text-decoration: none;
-    color: inherit;
-}
-
 .notepad {
     width: 600px;
     height: 400px;
-    max-height: calc(100vh - 60px);
+    max-height: calc(100vh - 60px); 
     border: 2px solid #000;
     background-color: #fff;
     display: flex;
@@ -117,26 +112,26 @@ body {
 .content {
     flex-grow: 1;
     padding: 10px;
-    overflow-y: auto;
+    overflow-y: auto; 
     border-top: 2px solid #000;
     border-bottom: 1px solid #000;
 }
 
 footer {
     text-align: center;
-    padding: 2px 0;
-    background: #fff;
+    padding: -50px 0;
+    background: #fff; 
     color: #000;
-    font-size: 10px;
+    font-size: 10px; 
     position: absolute;
-    bottom: 2px;
+    bottom: 1.5px; 
     width: 90%;
-    border-top: none;
+    border-top: none; 
 }
 
 .start_bar {
     width: 100%;
-    height: 30px;
+    height: 30px; 
     background-color: #c0c0c0;
     display: flex;
     align-items: center;
@@ -144,18 +139,18 @@ footer {
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 0 5px;
+    padding: 0 5px; 
 }
 
 .start_button {
     display: flex;
     align-items: center;
-    border: none;
-    margin-right: auto;
+    border: none; 
+    margin-right: auto; 
 }
 
 .start_button img {
-    width: 60px;
+    width: 60px; 
     height: auto;
 }
 
@@ -170,8 +165,8 @@ footer {
     font-family: 'Tahoma', sans-serif;
     text-align: right;
     margin-left: 10px;
-    margin-right: 10px;
-    font-size: 14px;
+    margin-right: 10px; 
+    font-size: 14px; 
 }
 
 /* Custom positioning for desktop icons */
@@ -195,6 +190,23 @@ footer {
     left: 10px;
 }
 
+#my-computer a, #internet-explorer a, #cv-folder a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+#my-computer a p {
+    color: #FFDE59 !important;
+}
+
+#internet-explorer a p {
+    color: #FDB3FD !important;
+}
+
+#cv-folder a p {
+    color: #C1FF72 !important;
+}
+
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .desktop-icon {
@@ -213,13 +225,13 @@ footer {
     .notepad {
         width: 90%;
         margin: 20px;
-        max-height: calc(100vh - 120px);
+        max-height: calc(100vh - 120px); 
     }
 
     .desktop-icon img {
         width: 32px;
         height: 32px;
-        margin-top: 20px;
+        margin-top: 20px; 
     }
 }
 
@@ -241,5 +253,5 @@ footer {
 .mobile-view .desktop-icon img {
     width: 32px;
     height: 32px;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
